@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.burger {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+.nav-header img {
+  height: fit-content;
+}
+#nav-link--btn {
+  background-color: #2bd1d1;
+  color: white;
+  transition: 0.3s;
+}
+#nav-link--btn:hover {
+  opacity: 0.7;
+}
+.nav-links {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.nav-links a {
+  color: rgba(0, 0, 0, 0.471);
+  margin: 0;
+  padding: 0.5em;
+  width: 6em;
+  font-weight: 700;
+  font-size: 1em;
+}
+.nav-links a:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.nav-links div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header {
+  align-items: center;
+}
+
+.home {
+  flex-direction: row-reverse;
+  min-height: 450px;
+  padding: 5em;
+}
+
+.home-img {
+  width: 40vw;
+
+  background-position: 0% 0%;
+}
+
+.home-text {
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 30em;
+}
+
+.home-text p {
+  text-align: left;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: left;
+}
+.boost {
+  height: 14em;
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-size: cover;
+}
+.advance--boxes {
+  width: 90vw;
+  margin: 0 auto;
+}
+.icons {
+  align-items: flex-start;
+  margin-top: 0.83em;
+}
+.icons img {
+  margin: 0 1em;
+}

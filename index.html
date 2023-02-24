@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet"  href="style/moblie.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="style/laptop.css">
+  <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/desktop.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  
+
+</head>
+<body>
+
+        <header class="container">
+          <div class="nav-header">
+            <img src="images/logo.svg" alt="logo">
+            <div class="burger" id="burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <nav class="nav-links" id="nav-links">
+            <div>
+              <a href="">Features</a>
+              <a href="">Pricing</a>
+              <a href="">Resources</a>
+            </div>
+        
+            <div>
+              <a href="">Login</a>
+              <a id="nav-link--btn" href="">Sign Up</a>
+            </div>
+          </nav>
+        </header>
+        <section class="home">
+        
+            <div class="home-img"></div>
+            <div class="home-text">
+            <h1>More than just shorter links</h1>
+            <p>
+              Build your brand’s recognition and get detailed insights
+              on how your links are performing.
+            </p>
+            <button class="btn-round" >Get Started</button>
+            </div>
+        </section>
+        <section class="shorten-it">
+           <div class="shorten-it--imput-box-wraper">
+            <div class="shorten-it--imput-box">
+              <form class="form" id="form">
+             <div>
+              <input type="text" placeholder="Shorten a link here..." name="linktoShort" id="linktoShortInput" class="input"></input>
+              <span class="" id="wrongSpan"></span>
+             </div>
+                <button type="submit" class="shorten-it--btn" id="shorten-it--btn">Shorten It!</button>
+              </form>
+            </div>
+          </div>
+         
+          <div class="shorten-links" id="shorten-links">
+          </div>
+    
+            </section>
+
+            <section class="advance">
+
+        <div class="advance-header">
+          <h2>Advanced Statistics</h2>
+          <p class="advance-header--text">
+            Track how your links are performing across the web with our
+            advanced statistics dashboard.
+          </p>
+        </div>
+        <div class="advance--boxes">
+          <div class="advance--box advance--box1">
+            <div class="square-img">
+              <img src="images/icon-brand-recognition.svg" alt="brand recognition icon">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+          <div class="aqua-line"></div>
+             <div class="advance--box advance--box2" >
+              <div class="square-img">
+                <img src="images/icon-detailed-records.svg" alt="detailed record icon">
+              </div>
+               <h3>Detailed Records</h3>
+                     <p>
+                       Gain insights into who is clicking your links. Knowing when and where
+                       people engage with your content helps inform better decisions.
+                     </p>
+             </div>
+             <div class="aqua-line"></div>
+          <div class="advance--box advance--box3">
+            <div class="square-img">
+              <img src="images/icon-fully-customizable.svg" alt="fully customizable icon" >
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+        </section>
+        <section class="boost">
+          <h2>Boost your links today</h2>
+          <button class="btn-round">Get Started</button>
+         </section>
+        
+             <footer>
+          <img src="images/logo.svg" alt="logo">
+          <div>
+            <h2>Features</h2>
+            <p>Link Shortening</p>
+            <p>Branded Links</p>
+            <p>Analytics</p>
+          </div>
+          <div>
+            <h2>Resources</h2>
+            <p>Blog</p>
+            <p>Developers</p>
+            <p>Support</p>
+          </div>
+          <div>
+            <h2>Company</h2>
+            <p>About</p>
+            <p>Our Team</p>
+            <p>Careers</p>
+            <p>Contact</p>
+          </div>
+          <div class="icons">
+            <img src="images/icon-facebook.svg" alt="facebook">
+            <img src="images/icon-twitter.svg" alt="twitter">
+            <img src="images/icon-pinterest.svg" alt="pinterest">
+            <img src="images/icon-instagram.svg" alt="instagram">
+          </div>
+            </footer>
+        
+            <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Kamila</a>.
+            </div>
+
+
+    <script type="module" src="src/script.js"></script>
+</body>
+</html>
